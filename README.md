@@ -17,3 +17,5 @@ oozie job -oozie http://localhost:11000/oozie -config oozie-newscheduler-example
 
 # Weekdays at 2 am example.
 oozie job -oozie http://localhost:11000/oozie -config oozie-newscheduler-examples/weekdays-at-two-am/job.properties -run
+
+Note: If you are not running on Hortonworks Sandbox (2.0+) you will need to edit job properties to specify your name node, job tracker and username.
