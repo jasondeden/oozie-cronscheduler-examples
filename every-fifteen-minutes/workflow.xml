@@ -2,7 +2,7 @@
   <start to="mkdir"/>
   <action name="mkdir">
      <fs>
-        <mkdir path="${nameNode}/user/hue/oozie-test/every-fifteen-minutes/${wf:id()}"/>
+        <mkdir path="${nameNode}/user/yarn/oozie-test/every-fifteen-minutes/${wf:id()}"/>
      </fs>
      <ok to="end"/>
      <error to="fail"/>
